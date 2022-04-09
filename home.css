@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-image: linear-gradient(120deg, white, grey, black);
+}
+
+.container {
+    width: 1000px;
+    height: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 10px 10px 10px 0px black;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(120deg, rgba(248, 132, 0, 0.651), rgb(238, 255, 0), rgb(41, 247, 0));
+}
+
+/* Header*/
+.header h1 {
+    font-size: 50px;
+    font-style: italic;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.header span {
+    color: chocolate;
+}
+
+/* Welcome*/
+
+.welcome {
+    font-size: 30px;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.welcome span {
+    color: chocolate;
+    font-style: italic;
+}
+
+/* Navigation */
+
+#navlist {
+    width: 70%;
+    position: relative;
+    left: 5%;
+}
+
+#navlist li ,a{
+    padding: .3rem;
+    list-style-type: none;
+    margin: .5rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+#navlist li {
+    border: solid 1px black;
+    border-radius: 9px;
+    display: inline-block;
+}
+
+#navlist li:hover {
+    border: solid 1px rgb(8, 238, 0);
+    border-radius: 9px;
+}
+#navlist a:hover {
+    color: green;
+}
+
+.quote {
+    width: 500px;
+    margin: 1rem;
+    padding: 1rem;
+    color: darkgrey;
+}
+
+.quote h3 {
+    font-size: 30px;
+}
+
+.quote p {
+    font-size: 22px;
+    margin: .5rem;
+    padding: .5rem;
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-image: linear-gradient(120deg, rgb(231, 228, 228), rgb(231, 209, 209), rgb(231, 157, 157), rgb(231, 114, 114), rgb(231, 67, 67));
+}
+
+.wrapper {
+    width: 1000px;
+    height: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 10px 10px 10px 0px black;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(120deg, rgba(248, 132, 0, 0.651), rgb(238, 255, 0), rgb(41, 247, 0));
+}
+
+/* Header */
+.header h1 {
+    font-size: 50px;
+    font-style: italic;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.header span {
+    color: chocolate;
+}
+
+/* Navigation */
+
+#navlist li,a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a:hover {
+    cursor: pointer;
+    color: lime;
+
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    left: 70%;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+/* Button */
+
+#button {
+    width: 40%;
+    padding: 1rem;
+    margin: 1rem;
+    border: solid 1px black;
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+}
+
+/* Information */
+
+.info p {
+    width: 500px;
+    padding: 1rem;
+    margin: 1rem;
+    color: chocolate;
+}
